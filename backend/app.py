@@ -122,6 +122,13 @@ with app.app_context():
     seed_data()
 
 
+@app.route('/')
+def home():
+    return jsonify({
+        "message": "Welcome to the Aarogyam Clinic API",
+        "status": "running"
+    })
+
 # ─────────────────────────────────────────────
 # Auth helpers
 # ─────────────────────────────────────────────
