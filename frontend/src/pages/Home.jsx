@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import './Home.css';
 
-const API = 'http://localhost:5000';
+const API = 'https://clinic-appointment-booking-s52j.onrender.com';
 
 const services = [
     {

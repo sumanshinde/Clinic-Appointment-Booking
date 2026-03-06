@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import './Booking.css';
 
-const API = 'http://localhost:5000';
+const API = 'https://clinic-appointment-booking-s52j.onrender.com';
 
 const TIME_SLOTS = [
     '09:00 AM', '09:30 AM', '10:00 AM', '10:30 AM',
